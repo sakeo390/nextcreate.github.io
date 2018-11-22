@@ -17,7 +17,6 @@
   }
 }
 
-/* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
   .lesson {
     width: 100%;
@@ -30,21 +29,19 @@
   .facebook {
     margin-bottom: 10px;
   }
-
+  
   .top-wrapper {
     text-align: left;
   }
-
-  /* header-rightクラスのdisplayをnoneに指定してください */
+  
   .header-right {
     display: none;
   }
 
-  /* menu-iconクラスのdisplayをblockに指定してください  */
   .menu-icon {
     display: block;
   }
-
+  
   .top-wrapper h1 {
     font-size: 24px;
   }
